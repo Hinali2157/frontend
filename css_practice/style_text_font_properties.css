@@ -17,8 +17,7 @@ p{
 
 p{
     text-transform: uppercase;
-    text-transform: lowercase;
-    text-transform: capitalize;
+    
 }
 
 p{
@@ -34,7 +33,7 @@ p{
 }
 
 p{
-    word-spacing: 200px;
+    word-spacing: 100px;
 }
 
 p{
@@ -48,29 +47,30 @@ p{
 }
 
 /* Css Verticle Alignement */
-/* 
-p{
+
+/* p{
     font-size: 80px;
     text-decoration: underline;
     border-top:1px solid black;
     width: 500px;
-}
-
-p img{
-    vertical-align: baseline;
-    vertical-align: text-top;
-    vertical-align: text-bottom;
-    vertical-align: super;
-    vertical-align: sub;
-    vertical-align: middle;
-    vertical-align: top;
 } */
 
+p img{
+    vertical-align: text-top;
+    
+    
+    
+    vertical-align: super;  
+    vertical-align: sub;
+    vertical-align: baseline;
+    vertical-align: middle;
+    vertical-align: top; 
+    vertical-align: text-bottom;
+}
+
 h1{
-    font-family: "Dancing Script", cursive;
-    font-size: 50px;
-    font-weight:bolder;
+    font-family: "Protest Guerrilla", sans-serif;
+    font-weight: 400;
     font-style: normal;
-    font-variant:normal;
     
 }
