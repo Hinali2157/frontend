@@ -1,0 +1,49 @@
+/* css rules */
+
+/* 1. @import rule */
+@import 'style2.css';
+@import 'style3.css';
+/* 2. cascade rule */
+
+/* priority --> id > class > tag */
+/* lower is first priority */
+
+/* 3. specificity rule */
+
+/* div{
+
+background-color: pink;
+height: 200px;
+    width: 300px;
+    border: 3px solid blue;
+}
+
+  .hint{
+    background-color: yellowgreen;
+    height: 150px;
+    width: 150px;
+} 
+#hint3{
+background-color:purple;
+    height: 100px;
+
+} */
+
+/* important rule */
+div{
+
+    background-color: pink ;
+   
+        
+    }
+    
+      .hint{
+        background-color: yellowgreen !important;
+        height: 150px;
+        width: 150px;
+    } 
+    #hint3{
+    background-color:purple ;
+       
+    
+    }

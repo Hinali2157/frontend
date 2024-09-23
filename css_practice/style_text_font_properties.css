@@ -1,0 +1,76 @@
+/* Css Text  Properties */
+
+p{
+    color:rgb(189, 243, 11);
+}
+
+p{
+    text-decoration:dotted underline; 
+     text-decoration-color: rgb(234, 13, 105);
+    text-decoration-thickness: 5px;
+    text-decoration-style: dotted;
+}
+
+/* p{
+    text-shadow: 5px 5px 1px black;
+}
+
+p{
+    text-transform: uppercase;
+    text-transform: lowercase;
+    text-transform: capitalize;
+}
+
+p{
+    text-indent: 200px;
+}
+
+p{
+    line-height:40px;
+}
+
+p{
+    letter-spacing: 10px;
+}
+
+p{
+    word-spacing: 200px;
+}
+
+p{
+    word-wrap: break-word;
+} */
+
+p{
+    white-space: nowrap;
+    white-space: wrap;
+    white-space: pre;
+}
+
+/* Css Verticle Alignement */
+/* 
+p{
+    font-size: 80px;
+    text-decoration: underline;
+    border-top:1px solid black;
+    width: 500px;
+}
+
+p img{
+    vertical-align: baseline;
+    vertical-align: text-top;
+    vertical-align: text-bottom;
+    vertical-align: super;
+    vertical-align: sub;
+    vertical-align: middle;
+    vertical-align: top;
+} */
+
+h1{
+    font-family: "Dancing Script", cursive;
+    font-size: 50px;
+    font-weight:bolder;
+    font-style: normal;
+    font-variant:normal;
+    
+}
