@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+.box{
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(3,auto);
+}
+.item{
+    background-color: rgb(18, 204, 233);
+    color:rgb(0, 0, 0);
+    border: 1px solid white;
+    text-align: center;
+    font-size: 100px;
+    height: 300px;
+}

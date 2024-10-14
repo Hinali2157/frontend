@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+.box{
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(3,auto);
+}
+.item{
+    background-color: rgb(18, 204, 233);
+    color:rgb(0, 0, 0);
+    border: 1px solid white;
+    text-align: center;
+    font-size: 100px;
+    height: 200px;
+}
+.box div:nth-child(1){
+    grid-column: 1/span 2;
+}
+.box div:nth-child(3){
+    grid-column-start: 3;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    height: 420px;
+}
