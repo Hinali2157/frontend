@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+ /* website start  */
+     /* heading start  */
+
+     nav{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 48px 24px;
+     }
+     .icons i{
+        padding:15px 10px;
+      border-radius: 100%;
+      background: rgba(0, 0, 0, 0.05);
+      color: black;
+        height: 50px;
+        width: 50px;
+        text-align: center;
+        transition-duration: .3s ease;
+     }
+     .icons i:hover{
+       background-color: #4e9525;
+       color: #fff;
+      }
+     .logo{
+      font-size: 32px;
+      font-weight:bolder;
+      color: black;
+      font-family: "Poppins", sans-serif;
+      font-weight: 800;
+      font-style: normal;
+     }
+     .care{
+      color:#4E9525;
+     }
+     .searching{
+      display: flex;
+      justify-content: end;
+     }
+     .search{
+      height: 50px;
+      background: rgba(0, 0, 0, 0.05);
+      width: 240px;
+      border: 0.5px solid rgba(0, 0, 0, 0.05);
+     }
+     .searchbar{
+      background-color: rgb(222, 221, 221);
+      border-radius: 50px;
+     }
+     .searchbar input{
+         border:0;
+         background-color: transparent;
+         padding-left: 20px;
+     }
+     .searchbar input:focus{
+      outline: 0;
+     }
+
+     .search-icon{
+      background-color: #4E9525;
+      height: 48px;
+      width: 48px;
+      border-radius: 100%;
+      padding:15px 15px;
+      color: white;
+     }
+
+     /* heading end */
+     /* menubaar start */
+     .menubaar{
+      background-color: green;
+      display: flex;
+      justify-content:center;
+      align-items: center;
+      height: 65px;
+      list-style-type: none;
+     }
+     .menubaar li{
+      padding: 0px 15px;
+     }
+     .menubaar li a{
+      font-family: "Poppins", Arial, sans-serif;
+      font-weight: 400;
+      text-decoration: none;
+      color: white;
+      font-size: 14px;
+      flex-wrap: wrap;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      transition-duration: .3s ease;
+   }
+   .menubaar li a:hover{
+      color: #fbd341;
+      text-decoration: underline 2px solid  #fbd341;
+      text-underline-offset: 5px;
+     }
+     .inner-menu{
+     display: none;
+     }
+     .item{
+      background-color: black;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      padding: 10px 15px;
+      flex-wrap: wrap;
+     }
+     .item a{
+      text-decoration: none;
+      color:gray;
+      text-transform: uppercase;
+      font-family: "Poppins", Arial, sans-serif;
+      font-weight: 400;
+      font-size: 18px;
+      letter-spacing: 1px;
+      line-height: 5px;
+    padding: 0px 5px;
+     }
+    
+     
+     /* menubaar end */
+/* background-1 start */
+.home-bg1{
+   background-image: url(../images/home_bg1.jpg);
+    height: 600px; 
+   background-position: 50% 0%;
+   background-attachment: fixed;
+}
+.con-1{
+   display: block;
+   padding: 200px 200px;
+   word-spacing: 3px;
+}
+.con-1 .subheading {
+   font-size: 15px;
+   color: #fbd341;
+   text-transform: uppercase;
+   font-family: "Poppins", Arial, sans-serif;
+   font-weight: 800;
+}
+.con-1 .heading{
+font-size: 60px;
+    color: #fff;
+    line-height: 1.2;
+    font-weight: 700;
+    font-family: "Poppins", Arial, sans-serif;
+}
+.con-1 .p1{
+   font-size: 18px;
+    line-height: 2;
+    color: rgba(255, 255, 255, 0.7);
+    font-family: "Poppins", Arial, sans-serif;
+}
+.con-1 .btn-1{
+  background: #4e9525;
+   border: 1px solid #4e9525 ;
+   color: #fff ;
+   height: 40px;
+   width: 150px;
+   font-size: 16px;
+   border-radius: 4px;
+   font-family: "Poppins", Arial, sans-serif;
+}
+/* background-1 end*/
+/* section-1 start */
+.con-2{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-family: "Poppins", Arial, sans-serif;
+    color: gray;
+}
+.inner-con{
+   padding: 0px 15px;
+   max-width: 200px;
+   box-shadow: 0px 10px 30px -4px rgba(0, 0, 0, 0.15);
+}
+.i1{
+   height: 100px;
+   width: 100px;
+   padding: 32px 32px;
+   
+}
+.fence,
+.lawn-mower,
+.forest{
+   width: 40px;
+   color: #4E9525;
+}
+
+/* section-1 end */

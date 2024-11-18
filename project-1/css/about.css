@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", Arial, sans-serif;
+}
+ /* website start  */
+     /* heading start  */
+
+     nav{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 48px 24px;
+     }
+     .icons i{
+        padding:15px 10px;
+      border-radius: 100%;
+      background: rgba(0, 0, 0, 0.05);
+      color: black;
+        height: 50px;
+        width: 50px;
+        text-align: center;
+        transition-duration: .3s ease;
+     }
+     .icons i:hover{
+       background-color: #4e9525;
+       color: #fff;
+      }
+     
+     .logo{
+      font-size: 32px;
+      font-weight:bolder;
+      color: black;
+      font-family: "Poppins", sans-serif;
+      font-weight: 800;
+      font-style: normal;
+     }
+     .care{
+      color:#4E9525;
+     }
+     .searching{
+      display: flex;
+      justify-content: end;
+     }
+     .search{
+      height: 50px;
+      background: rgba(0, 0, 0, 0.05);
+      width: 240px;
+      border: 0.5px solid rgba(0, 0, 0, 0.05);
+     }
+     .searchbar{
+      background-color: rgb(222, 221, 221);
+      border-radius: 50px;
+     }
+     .searchbar input{
+         border:0;
+         background-color: transparent;
+         padding-left: 20px;
+     }
+     .searchbar input:focus{
+      outline: 0;
+     }
+
+     .search-icon{
+      background-color: #4E9525;
+      height: 48px;
+      width: 48px;
+      border-radius: 100%;
+      padding:15px 15px;
+      color: white;
+     }
+
+     /* heading end */
+     /* menubaar start */
+     .menubaar{
+      background-color: green;
+      display: flex;
+      justify-content:center;
+      align-items: center;
+      height: 70px;
+      list-style-type: none;
+     }
+     .menubaar li{
+      padding: 0px 15px;
+     }
+     .menubaar li a{
+      font-family: "Poppins", Arial, sans-serif;
+      font-weight: 400;
+      transition-duration: .3s ease;
+      text-decoration: none;
+      color: white;
+      font-size: 14px;
+      flex-wrap: wrap;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+     }
+      .menubaar li a:hover{
+      color: #fbd341;
+      text-decoration: underline 2px solid #fbd341;
+     }
+    /* menubaar end */
+/* background-1 start */
+.home-bg1{
+   background-image: url(../images/about_bg-1.jpg);
+    height: 600px; 
+    background-position: 50% 0%;
+   background-attachment: fixed;
+}
+.con-1{
+   display: block;
+  text-align: center;
+   align-items: center;
+   padding-top: 400px;
+}
+.con-1 .heading{
+   font-size: 60px;
+       color: #fff;
+       line-height: 1.2;
+       font-weight: 700;
+       font-family: "Poppins", Arial, sans-serif;
+   }
+   .con-1 .sabtitle a{
+      font-size: 16px;
+      color: rgba(255, 255, 255, 0.7);
+      text-decoration: none;
+   }
+   .con-1 .sabtitle i{
+      color: rgba(255, 255, 255, 0.7);
+   }
+    /* background-1 end  */

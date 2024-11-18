@@ -1,0 +1,18 @@
+@media(max-width:1400px){
+    .inner-menu{
+        display:none;
+    }
+}
+@media (max-width: 992px) {
+    .menubaar{
+        display: none;
+    }
+    .inner-menu{
+        display:block;
+    }
+}
+@media(max-width:768px){
+   .icons i{
+    display: none;
+   }
+}
