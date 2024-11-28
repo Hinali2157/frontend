@@ -1,7 +1,7 @@
 *{
     margin: 0;
     box-sizing: border-box;
-    
+    font-family: "Poppins", sans-serif;
 }
  /* website start  */
      /* heading start  */
@@ -126,4 +126,107 @@
       color: rgba(255, 255, 255, 0.7);
    }
     /* background-1 end  */
-   
+   /* section-1 start */
+
+.section-1 {
+   padding: 48px 24px 0px;
+   display: flex;
+justify-content: center;
+padding-bottom: 100px;
+padding-top: 150px;
+}
+
+.con-2 {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-family: "Poppins", Arial, sans-serif;
+   color: gray;
+   gap: 30px;
+}
+
+.inner-con {
+   padding: 0px 20px;
+   max-width: 250px;
+   height: 340px;
+   box-shadow: 0px 10px 30px -4px rgba(0, 0, 0, 0.2);
+   text-align: center;
+   position: relative;
+   width: 100%;
+   padding: 0px 15px;
+   position: relative;
+}
+
+.i1 {
+   border-radius: 100%;
+   background-color: rgba(0, 0, 0, 0.05);
+   display: inline-block;
+   width: 100px;
+   height: 100px;
+   padding: 32px 32px;
+   margin: 20px;
+}
+
+
+.text1 h3 {
+   font-size: 18px;
+   font-weight: 600;
+   line-height: 1.5;
+   color: rgba(0, 0, 0, 0.8);
+   font-family: "Poppins", Arial, sans-serif;
+}
+
+.text1 p {
+   font-family: "Poppins", Arial, sans-serif;
+   line-height: 1.8;
+   font-weight: 400;
+   color: gray;
+}
+
+.arrow {
+   position: absolute;
+   bottom: -35px;
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   color: white;
+   left: 100px;
+   opacity: 0;
+}
+
+.arrow span i {
+   padding: 15px;
+}
+
+.inner-con:hover .arrow {
+   background-color: #4E9525;
+   opacity: 1;
+}
+
+.subcon-3{
+max-width: 300px;
+padding: 0px 30px;
+}
+.subcon-3 h3{
+    margin-bottom: 5px;
+    font-weight: 700;
+    color: #4e9525;
+}
+.subcon-3 p{
+   line-height: 1.8;
+   font-weight: 400;
+   color: gray;
+   padding-bottom: 10px;
+}
+.con-3 .btn-2 {
+   background: #4e9525;
+   border: 1px solid #4e9525;
+   color: #fff;
+   height: 40px;
+   width: 150px;
+   font-size: 16px;
+   border-radius: 4px;
+   font-family: "Poppins", Arial, sans-serif;
+   cursor: pointer;
+}
+/* section-1 end */

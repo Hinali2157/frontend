@@ -5,6 +5,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
   <!-- font link -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -83,41 +86,461 @@
     <div class="con-2">
       <div class="inner-con">
         <div class="i1">
-          <a href="">
-            <img src="../images/fence.png" class="fence">
-          </a>
+          <div class="svg-fance-1">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="40" height="40">
+              <path
+                d="M0 0 C4.49113411 0 8.59538982 0.04765185 13 1 C13 2.65 13 4.3 13 6 C13.66 6 14.32 6 15 6 C15 4.35 15 2.7 15 1 C19.75 -0.125 19.75 -0.125 22 1 C24.00800456 0.71887936 26.01014051 0.38932033 28 0 C30.44034783 5.69092972 30.26330748 11.05242203 30.1875 17.125 C30.18685547 18.11371094 30.18621094 19.10242188 30.18554688 20.12109375 C30.15976747 24.35464534 30.03458443 27.86166229 29 32 C24.38 32 19.76 32 15 32 C15 30.68 15 29.36 15 28 C14.34 28 13.68 28 13 28 C13 29.32 13 30.64 13 32 C8.38 32 3.76 32 -1 32 C-1.76188101 25.90495191 -2.13088897 19.88663589 -2.1875 13.75 C-2.20039062 13.07710937 -2.21328125 12.40421875 -2.2265625 11.7109375 C-2.23502915 7.42681086 -1.56415876 3.98149501 0 0 Z M1 2 C1 3.32 1 4.64 1 6 C1.99 6 2.98 6 4 6 C4 4.68 4 3.36 4 2 C3.01 2 2.02 2 1 2 Z M9 2 C9 3.32 9 4.64 9 6 C9.99 6 10.98 6 12 6 C11.67 4.68 11.34 3.36 11 2 C10.34 2 9.68 2 9 2 Z M17 2 C16.67 3.32 16.34 4.64 16 6 C16.99 6 17.98 6 19 6 C19 4.68 19 3.36 19 2 C18.34 2 17.68 2 17 2 Z M24 2 C24 3.32 24 4.64 24 6 C24.99 6 25.98 6 27 6 C27 4.68 27 3.36 27 2 C26.01 2 25.02 2 24 2 Z M-1 8 C-1 8.99 -1 9.98 -1 11 C8.9 11 18.8 11 29 11 C29 10.01 29 9.02 29 8 C28.34 8 27.68 8 27 8 C27 8.66 27 9.32 27 10 C26.01 10 25.02 10 24 10 C24 9.34 24 8.68 24 8 C22.35 8 20.7 8 19 8 C19 8.66 19 9.32 19 10 C18.34 9.34 17.68 8.68 17 8 C14.41645782 7.83312552 14.41645782 7.83312552 12 8 C12 8.66 12 9.32 12 10 C11.01 10 10.02 10 9 10 C9 9.34 9 8.68 9 8 C7.35 8 5.7 8 4 8 C4 8.66 4 9.32 4 10 C3.01 10 2.02 10 1 10 C1 9.34 1 8.68 1 8 C0.34 8 -0.32 8 -1 8 Z M1 12 C1 15.3 1 18.6 1 22 C1.99 22 2.98 22 4 22 C4 18.7 4 15.4 4 12 C3.01 12 2.02 12 1 12 Z M6 12 C6 15.3 6 18.6 6 22 C6.33 22 6.66 22 7 22 C7 18.7 7 15.4 7 12 C6.67 12 6.34 12 6 12 Z M9 12 C9 15.3 9 18.6 9 22 C9.99 22 10.98 22 12 22 C12 18.7 12 15.4 12 12 C11.01 12 10.02 12 9 12 Z M13 12 C13 15.3 13 18.6 13 22 C13.66 22 14.32 22 15 22 C15 18.7 15 15.4 15 12 C14.34 12 13.68 12 13 12 Z M16 12 C16 15.3 16 18.6 16 22 C16.99 22 17.98 22 19 22 C19 18.7 19 15.4 19 12 C18.01 12 17.02 12 16 12 Z M21 12 C21 15.3 21 18.6 21 22 C21.33 22 21.66 22 22 22 C22 18.7 22 15.4 22 12 C21.67 12 21.34 12 21 12 Z M24 12 C24 15.3 24 18.6 24 22 C24.99 22 25.98 22 27 22 C27 18.7 27 15.4 27 12 C26.01 12 25.02 12 24 12 Z M-1 23 C-1 23.99 -1 24.98 -1 26 C-0.34 26 0.32 26 1 26 C1 25.34 1 24.68 1 24 C1.99 24 2.98 24 4 24 C4 24.66 4 25.32 4 26 C5.65 26 7.3 26 9 26 C9 25.34 9 24.68 9 24 C9.66 24.66 10.32 25.32 11 26 C14 26.33333333 14 26.33333333 17 26 C17.66 25.34 18.32 24.68 19 24 C19 24.66 19 25.32 19 26 C20.65 26 22.3 26 24 26 C24 25.34 24 24.68 24 24 C24.99 24 25.98 24 27 24 C27 24.66 27 25.32 27 26 C27.66 26 28.32 26 29 26 C29 25.01 29 24.02 29 23 C19.1 23 9.2 23 -1 23 Z M1 28 C1 28.99 1 29.98 1 31 C1.99 31 2.98 31 4 31 C4 30.01 4 29.02 4 28 C3.01 28 2.02 28 1 28 Z M9 28 C9 28.99 9 29.98 9 31 C9.99 31 10.98 31 12 31 C12 30.01 12 29.02 12 28 C11.01 28 10.02 28 9 28 Z M16 28 C16 28.99 16 29.98 16 31 C16.99 31 17.98 31 19 31 C19 30.01 19 29.02 19 28 C18.01 28 17.02 28 16 28 Z M24 28 C24 28.99 24 29.98 24 31 C24.99 31 25.98 31 27 31 C27 30.01 27 29.02 27 28 C26.01 28 25.02 28 24 28 Z "
+                fill="#4E9525" transform="translate(2,0)" />
+            </svg>
+          </div>
+          <div class="svg-fance-2">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="40" height="40">
+              <path
+                d="M0 0 C4.49113411 0 8.59538982 0.04765185 13 1 C13 2.65 13 4.3 13 6 C13.66 6 14.32 6 15 6 C15 4.35 15 2.7 15 1 C19.75 -0.125 19.75 -0.125 22 1 C24.00800456 0.71887936 26.01014051 0.38932033 28 0 C30.44034783 5.69092972 30.26330748 11.05242203 30.1875 17.125 C30.18685547 18.11371094 30.18621094 19.10242188 30.18554688 20.12109375 C30.15976747 24.35464534 30.03458443 27.86166229 29 32 C24.38 32 19.76 32 15 32 C15 30.68 15 29.36 15 28 C14.34 28 13.68 28 13 28 C13 29.32 13 30.64 13 32 C8.38 32 3.76 32 -1 32 C-1.76188101 25.90495191 -2.13088897 19.88663589 -2.1875 13.75 C-2.20039062 13.07710937 -2.21328125 12.40421875 -2.2265625 11.7109375 C-2.23502915 7.42681086 -1.56415876 3.98149501 0 0 Z M1 2 C1 3.32 1 4.64 1 6 C1.99 6 2.98 6 4 6 C4 4.68 4 3.36 4 2 C3.01 2 2.02 2 1 2 Z M9 2 C9 3.32 9 4.64 9 6 C9.99 6 10.98 6 12 6 C11.67 4.68 11.34 3.36 11 2 C10.34 2 9.68 2 9 2 Z M17 2 C16.67 3.32 16.34 4.64 16 6 C16.99 6 17.98 6 19 6 C19 4.68 19 3.36 19 2 C18.34 2 17.68 2 17 2 Z M24 2 C24 3.32 24 4.64 24 6 C24.99 6 25.98 6 27 6 C27 4.68 27 3.36 27 2 C26.01 2 25.02 2 24 2 Z M-1 8 C-1 8.99 -1 9.98 -1 11 C8.9 11 18.8 11 29 11 C29 10.01 29 9.02 29 8 C28.34 8 27.68 8 27 8 C27 8.66 27 9.32 27 10 C26.01 10 25.02 10 24 10 C24 9.34 24 8.68 24 8 C22.35 8 20.7 8 19 8 C19 8.66 19 9.32 19 10 C18.34 9.34 17.68 8.68 17 8 C14.41645782 7.83312552 14.41645782 7.83312552 12 8 C12 8.66 12 9.32 12 10 C11.01 10 10.02 10 9 10 C9 9.34 9 8.68 9 8 C7.35 8 5.7 8 4 8 C4 8.66 4 9.32 4 10 C3.01 10 2.02 10 1 10 C1 9.34 1 8.68 1 8 C0.34 8 -0.32 8 -1 8 Z M1 12 C1 15.3 1 18.6 1 22 C1.99 22 2.98 22 4 22 C4 18.7 4 15.4 4 12 C3.01 12 2.02 12 1 12 Z M6 12 C6 15.3 6 18.6 6 22 C6.33 22 6.66 22 7 22 C7 18.7 7 15.4 7 12 C6.67 12 6.34 12 6 12 Z M9 12 C9 15.3 9 18.6 9 22 C9.99 22 10.98 22 12 22 C12 18.7 12 15.4 12 12 C11.01 12 10.02 12 9 12 Z M13 12 C13 15.3 13 18.6 13 22 C13.66 22 14.32 22 15 22 C15 18.7 15 15.4 15 12 C14.34 12 13.68 12 13 12 Z M16 12 C16 15.3 16 18.6 16 22 C16.99 22 17.98 22 19 22 C19 18.7 19 15.4 19 12 C18.01 12 17.02 12 16 12 Z M21 12 C21 15.3 21 18.6 21 22 C21.33 22 21.66 22 22 22 C22 18.7 22 15.4 22 12 C21.67 12 21.34 12 21 12 Z M24 12 C24 15.3 24 18.6 24 22 C24.99 22 25.98 22 27 22 C27 18.7 27 15.4 27 12 C26.01 12 25.02 12 24 12 Z M-1 23 C-1 23.99 -1 24.98 -1 26 C-0.34 26 0.32 26 1 26 C1 25.34 1 24.68 1 24 C1.99 24 2.98 24 4 24 C4 24.66 4 25.32 4 26 C5.65 26 7.3 26 9 26 C9 25.34 9 24.68 9 24 C9.66 24.66 10.32 25.32 11 26 C14 26.33333333 14 26.33333333 17 26 C17.66 25.34 18.32 24.68 19 24 C19 24.66 19 25.32 19 26 C20.65 26 22.3 26 24 26 C24 25.34 24 24.68 24 24 C24.99 24 25.98 24 27 24 C27 24.66 27 25.32 27 26 C27.66 26 28.32 26 29 26 C29 25.01 29 24.02 29 23 C19.1 23 9.2 23 -1 23 Z M1 28 C1 28.99 1 29.98 1 31 C1.99 31 2.98 31 4 31 C4 30.01 4 29.02 4 28 C3.01 28 2.02 28 1 28 Z M9 28 C9 28.99 9 29.98 9 31 C9.99 31 10.98 31 12 31 C12 30.01 12 29.02 12 28 C11.01 28 10.02 28 9 28 Z M16 28 C16 28.99 16 29.98 16 31 C16.99 31 17.98 31 19 31 C19 30.01 19 29.02 19 28 C18.01 28 17.02 28 16 28 Z M24 28 C24 28.99 24 29.98 24 31 C24.99 31 25.98 31 27 31 C27 30.01 27 29.02 27 28 C26.01 28 25.02 28 24 28 Z "
+                fill="#fbd341" transform="translate(2,0)" />
+            </svg>
+          </div>
         </div>
         <div class="text1">
           <h3>Garden Care</h3>
-          <p>Seeking justice in the world is a sed significant emotional and investment when we follow this call.</p>
+          <p>Seeking justice in the world is a significant emotional and investment when we follow this call.</p>
+        </div>
+        <div class="arrow">
+          <span><i class="fa-solid fa-arrow-right"></i></span>
         </div>
       </div>
       <div class="inner-con">
         <div class="i1">
-          <a href="">
-            <img src="../images/lawn-mower.png" class="lawn-mower">
-          </a>
+          <div class="svg-mover-1">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="40" height="40">
+              <path
+                d="M0 0 C1.9375 0.3125 1.9375 0.3125 4 1 C4.33 1.99 4.66 2.98 5 4 C5.66 4 6.32 4 7 4 C7.433125 4.7425 7.86625 5.485 8.3125 6.25 C10.16677714 9.27178496 12.15621943 10.92480878 15 13 C15.68707555 10.50935112 16 8.62113708 16 6 C16.66 6 17.32 6 18 6 C18.33 6.66 18.66 7.32 19 8 C19 7.34 19 6.68 19 6 C19.66 6 20.32 6 21 6 C21.33 6.66 21.66 7.32 22 8 C21.5359375 6.8553125 21.5359375 6.8553125 21.0625 5.6875 C20.32106407 3.81210323 19.63771783 1.91315348 19 0 C20.875 0.5625 20.875 0.5625 23 2 C24.125 5.375 24.125 5.375 25 9 C25.350625 9.70125 25.70125 10.4025 26.0625 11.125 C27.18763238 13.37526477 27.58814416 15.52886494 28 18 C29.32 18.33 30.64 18.66 32 19 C32 20.98 32 22.96 32 25 C23.59522573 27.65755073 12.56748834 27.16111407 4.69921875 23.265625 C2.45446081 21.59366736 1.3220999 20.51521445 0 18 C-0.35899842 14.90697487 -0.28220492 11.85826393 -0.1875 8.75 C-0.17396484 7.90953125 -0.16042969 7.0690625 -0.14648438 6.203125 C-0.11123464 4.13514062 -0.0574302 2.06748729 0 0 Z M4 12 C4.33 13.98 4.66 15.96 5 18 C5.99 18.33 6.98 18.66 8 19 C7.67 19.99 7.34 20.98 7 22 C7.66 22 8.32 22 9 22 C9.33 20.02 9.66 18.04 10 16 C7.28996707 13.32668287 7.28996707 13.32668287 4 12 Z M18 15 C18 15.33 18 15.66 18 16 C20.64 16 23.28 16 26 16 C26 15.67 26 15.34 26 15 C23.36 15 20.72 15 18 15 Z M21 18 C25 19 25 19 25 19 Z M15 20 C16 22 16 22 16 22 Z M18 20 C18 20.99 18 21.98 18 23 C20.31 23 22.62 23 25 23 C24.67 22.34 24.34 21.68 24 21 C20.97065509 20.34227572 20.97065509 20.34227572 18 20 Z M27 21 C28 23 28 23 28 23 Z "
+                fill="#4E9525" transform="translate(0,5)" />
+              <path
+                d="M0 0 C3.96 0.99 3.96 0.99 8 2 C7.67 3.65 7.34 5.3 7 7 C4 7 1 7 -2 7 C-1.34 4.69 -0.68 2.38 0 0 Z "
+                fill="#4E9525" transform="translate(11,1)" />
+              <path d="M0 0 C0.99 0.33 1.98 0.66 3 1 C2.34 1.66 1.68 2.32 1 3 C0.67 2.01 0.34 1.02 0 0 Z "
+                fill="#4E9525" transform="translate(14,8)" />
+              <path d="M0 0 C0.66 0 1.32 0 2 0 C2 0.66 2 1.32 2 2 C1.34 2 0.68 2 0 2 C0 1.34 0 0.68 0 0 Z "
+                fill="#4E9525" transform="translate(18,8)" />
+            </svg>
+          </div>
+          <div class="svg-mover-2">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="40" height="40">
+              <path
+                d="M0 0 C1.9375 0.3125 1.9375 0.3125 4 1 C4.33 1.99 4.66 2.98 5 4 C5.66 4 6.32 4 7 4 C7.433125 4.7425 7.86625 5.485 8.3125 6.25 C10.16677714 9.27178496 12.15621943 10.92480878 15 13 C15.68707555 10.50935112 16 8.62113708 16 6 C16.66 6 17.32 6 18 6 C18.33 6.66 18.66 7.32 19 8 C19 7.34 19 6.68 19 6 C19.66 6 20.32 6 21 6 C21.33 6.66 21.66 7.32 22 8 C21.5359375 6.8553125 21.5359375 6.8553125 21.0625 5.6875 C20.32106407 3.81210323 19.63771783 1.91315348 19 0 C20.875 0.5625 20.875 0.5625 23 2 C24.125 5.375 24.125 5.375 25 9 C25.350625 9.70125 25.70125 10.4025 26.0625 11.125 C27.18763238 13.37526477 27.58814416 15.52886494 28 18 C29.32 18.33 30.64 18.66 32 19 C32 20.98 32 22.96 32 25 C23.59522573 27.65755073 12.56748834 27.16111407 4.69921875 23.265625 C2.45446081 21.59366736 1.3220999 20.51521445 0 18 C-0.35899842 14.90697487 -0.28220492 11.85826393 -0.1875 8.75 C-0.17396484 7.90953125 -0.16042969 7.0690625 -0.14648438 6.203125 C-0.11123464 4.13514062 -0.0574302 2.06748729 0 0 Z M4 12 C4.33 13.98 4.66 15.96 5 18 C5.99 18.33 6.98 18.66 8 19 C7.67 19.99 7.34 20.98 7 22 C7.66 22 8.32 22 9 22 C9.33 20.02 9.66 18.04 10 16 C7.28996707 13.32668287 7.28996707 13.32668287 4 12 Z M18 15 C18 15.33 18 15.66 18 16 C20.64 16 23.28 16 26 16 C26 15.67 26 15.34 26 15 C23.36 15 20.72 15 18 15 Z M21 18 C25 19 25 19 25 19 Z M15 20 C16 22 16 22 16 22 Z M18 20 C18 20.99 18 21.98 18 23 C20.31 23 22.62 23 25 23 C24.67 22.34 24.34 21.68 24 21 C20.97065509 20.34227572 20.97065509 20.34227572 18 20 Z M27 21 C28 23 28 23 28 23 Z "
+                fill="#fbd341" transform="translate(0,5)" />
+              <path
+                d="M0 0 C3.96 0.99 3.96 0.99 8 2 C7.67 3.65 7.34 5.3 7 7 C4 7 1 7 -2 7 C-1.34 4.69 -0.68 2.38 0 0 Z "
+                fill="#fbd341" transform="translate(11,1)" />
+              <path d="M0 0 C0.99 0.33 1.98 0.66 3 1 C2.34 1.66 1.68 2.32 1 3 C0.67 2.01 0.34 1.02 0 0 Z "
+                fill="#fbd341" transform="translate(14,8)" />
+              <path d="M0 0 C0.66 0 1.32 0 2 0 C2 0.66 2 1.32 2 2 C1.34 2 0.68 2 0 2 C0 1.34 0 0.68 0 0 Z "
+                fill="#fbd341" transform="translate(18,8)" />
+            </svg>
+          </div>
         </div>
         <div class="text1">
           <h3>Lawn Mowing</h3>
-          <p>Seeking justice in the world is a sed significant emotional and investment when we follow this call.</p>
+          <p>Seeking justice in the world is a significant emotional and investment when we follow this call.</p>
+        </div>
+        <div class="arrow">
+          <span><i class="fa-solid fa-arrow-right"></i></span>
         </div>
       </div>
       <div class="inner-con">
         <div class="i1">
-          <a href="">
-            <img src="../images/forest.png" class="forest">
-          </a>
+          <div class="svg-forest-1">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="40" height="40">
+              <path
+                d="M0 0 C3.29714793 0.32971479 4.6226839 0.6226839 7 3 C6.625 5.125 6.625 5.125 6 7 C5.01 7 4.02 7 3 7 C3 7.66 3 8.32 3 9 C4.32 9 5.64 9 7 9 C7.33 8.34 7.66 7.68 8 7 C10.85170789 6.01665245 12.89640609 6 16 6 C18.7647705 10.21890585 20.95124787 13.56181224 21.125 18.6875 C19.52102318 23.41032065 17.21316472 26.32104745 13.1875 29.375 C8.12528781 30.82134634 4.37613475 30.68806738 -0.25 28.375 C-3.99242892 25.1429023 -6.75212006 22.23091948 -7.3125 17.1875 C-7 15 -7 15 -6 14 C-6.04125 13.030625 -6.0825 12.06125 -6.125 11.0625 C-6.08375 10.051875 -6.0425 9.04125 -6 8 C-5.01 7.34 -4.02 6.68 -3 6 C-2.6278958 4.67696283 -2.29369827 3.34262065 -2 2 C-1.34 1.34 -0.68 0.68 0 0 Z M-2 9 C-1 12 -1 12 -1 12 Z M13 9 C13.33 10.98 13.66 12.96 14 15 C14.99 15 15.98 15 17 15 C16.34 13.02 15.68 11.04 15 9 C14.34 9 13.68 9 13 9 Z M9 10 C8.34 11.65 7.68 13.3 7 15 C8.65 15 10.3 15 12 15 C11.34 13.35 10.68 11.7 10 10 C9.67 10 9.34 10 9 10 Z M0 13 C-0.33 13.66 -0.66 14.32 -1 15 C-0.34 15 0.32 15 1 15 C0.67 14.34 0.34 13.68 0 13 Z M-5 16 C-4.49701212 20.40114397 -2.91227269 22.71195019 0 26 C1.65 25.67 3.3 25.34 5 25 C5 24.34 5 23.68 5 23 C3.35 23 1.7 23 0 23 C-0.268125 22.030625 -0.53625 21.06125 -0.8125 20.0625 C-1.204375 19.051875 -1.59625 18.04125 -2 17 C-2.99 16.67 -3.98 16.34 -5 16 Z M1 16 C1.33 17.65 1.66 19.3 2 21 C3.98 21.495 3.98 21.495 6 22 C6.33 23.65 6.66 25.3 7 27 C6.01 27.495 6.01 27.495 5 28 C7.41619823 28.25030977 7.41619823 28.25030977 10 28 C10.66 27.01 11.32 26.02 12 25 C11.34 24.34 10.68 23.68 10 23 C9.875 20.375 9.875 20.375 10 18 C11.98 18 13.96 18 16 18 C16 17.34 16 16.68 16 16 C11.05 16 6.1 16 1 16 Z M18 17 C19 19 19 19 19 19 Z M11 20 C11.66 21.32 12.32 22.64 13 24 C13.99 24 14.98 24 16 24 C16.66 22.35 17.32 20.7 18 19 C15.66140564 19 13.29969577 19.60856242 11 20 Z "
+                fill="#4E9525" transform="translate(9,2)" />
+              <path
+                d="M0 0 C0.33 2.31 0.66 4.62 1 7 C-1.91482778 7.80967438 -3.46113217 8.21845993 -6.3125 7.0625 C-6.869375 6.711875 -7.42625 6.36125 -8 6 C-7.67 4.35 -7.34 2.7 -7 1 C-4 0 -4 0 0 0 Z M-3 2 C-3.99 2.33 -4.98 2.66 -6 3 C-6 3.66 -6 4.32 -6 5 C-4.68 5 -3.36 5 -2 5 C-2.33 4.01 -2.66 3.02 -3 2 Z "
+                fill="#4E9525" transform="translate(31,0)" />
+              <path
+                d="M0 0 C-0.33 1.32 -0.66 2.64 -1 4 C-2.98 4 -4.96 4 -7 4 C-7 2.68 -7 1.36 -7 0 C-4.3333581 -1.33332095 -2.83319697 -0.67102033 0 0 Z "
+                fill="#4E9525" transform="translate(7,1)" />
+            </svg>
+          </div>
+          <div class="svg-forest-2">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="40" height="40">
+              <path
+                d="M0 0 C3.29714793 0.32971479 4.6226839 0.6226839 7 3 C6.625 5.125 6.625 5.125 6 7 C5.01 7 4.02 7 3 7 C3 7.66 3 8.32 3 9 C4.32 9 5.64 9 7 9 C7.33 8.34 7.66 7.68 8 7 C10.85170789 6.01665245 12.89640609 6 16 6 C18.7647705 10.21890585 20.95124787 13.56181224 21.125 18.6875 C19.52102318 23.41032065 17.21316472 26.32104745 13.1875 29.375 C8.12528781 30.82134634 4.37613475 30.68806738 -0.25 28.375 C-3.99242892 25.1429023 -6.75212006 22.23091948 -7.3125 17.1875 C-7 15 -7 15 -6 14 C-6.04125 13.030625 -6.0825 12.06125 -6.125 11.0625 C-6.08375 10.051875 -6.0425 9.04125 -6 8 C-5.01 7.34 -4.02 6.68 -3 6 C-2.6278958 4.67696283 -2.29369827 3.34262065 -2 2 C-1.34 1.34 -0.68 0.68 0 0 Z M-2 9 C-1 12 -1 12 -1 12 Z M13 9 C13.33 10.98 13.66 12.96 14 15 C14.99 15 15.98 15 17 15 C16.34 13.02 15.68 11.04 15 9 C14.34 9 13.68 9 13 9 Z M9 10 C8.34 11.65 7.68 13.3 7 15 C8.65 15 10.3 15 12 15 C11.34 13.35 10.68 11.7 10 10 C9.67 10 9.34 10 9 10 Z M0 13 C-0.33 13.66 -0.66 14.32 -1 15 C-0.34 15 0.32 15 1 15 C0.67 14.34 0.34 13.68 0 13 Z M-5 16 C-4.49701212 20.40114397 -2.91227269 22.71195019 0 26 C1.65 25.67 3.3 25.34 5 25 C5 24.34 5 23.68 5 23 C3.35 23 1.7 23 0 23 C-0.268125 22.030625 -0.53625 21.06125 -0.8125 20.0625 C-1.204375 19.051875 -1.59625 18.04125 -2 17 C-2.99 16.67 -3.98 16.34 -5 16 Z M1 16 C1.33 17.65 1.66 19.3 2 21 C3.98 21.495 3.98 21.495 6 22 C6.33 23.65 6.66 25.3 7 27 C6.01 27.495 6.01 27.495 5 28 C7.41619823 28.25030977 7.41619823 28.25030977 10 28 C10.66 27.01 11.32 26.02 12 25 C11.34 24.34 10.68 23.68 10 23 C9.875 20.375 9.875 20.375 10 18 C11.98 18 13.96 18 16 18 C16 17.34 16 16.68 16 16 C11.05 16 6.1 16 1 16 Z M18 17 C19 19 19 19 19 19 Z M11 20 C11.66 21.32 12.32 22.64 13 24 C13.99 24 14.98 24 16 24 C16.66 22.35 17.32 20.7 18 19 C15.66140564 19 13.29969577 19.60856242 11 20 Z "
+                fill="#fbd341" transform="translate(9,2)" />
+              <path
+                d="M0 0 C0.33 2.31 0.66 4.62 1 7 C-1.91482778 7.80967438 -3.46113217 8.21845993 -6.3125 7.0625 C-6.869375 6.711875 -7.42625 6.36125 -8 6 C-7.67 4.35 -7.34 2.7 -7 1 C-4 0 -4 0 0 0 Z M-3 2 C-3.99 2.33 -4.98 2.66 -6 3 C-6 3.66 -6 4.32 -6 5 C-4.68 5 -3.36 5 -2 5 C-2.33 4.01 -2.66 3.02 -3 2 Z "
+                fill="#fbd341" transform="translate(31,0)" />
+              <path
+                d="M0 0 C-0.33 1.32 -0.66 2.64 -1 4 C-2.98 4 -4.96 4 -7 4 C-7 2.68 -7 1.36 -7 0 C-4.3333581 -1.33332095 -2.83319697 -0.67102033 0 0 Z "
+                fill="#fbd341" transform="translate(7,1)" />
+            </svg>
+          </div>
         </div>
         <div class="text1">
-          <h3>Lawn care</h3>
-          <p>Seeking justice in the world is a sed significant emotional and investment when we follow this call.</p>
+          <h3>Tree Planting</h3>
+          <p>Seeking justice in the world is a significant emotional and investment when we follow this call.</p>
+        </div>
+        <div class="arrow">
+          <span><i class="fa-solid fa-arrow-right"></i></span>
+        </div>
+      </div>
+    </div>
+    <div class="con-3">
+      <div class="subcon-3">
+        <h3>services</h3>
+        <h1>Lawn Service</h1>
+        <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a
+          paradisematic country, in which roasted parts of sentences fly into your.
+        </p>
+        <a href="home.html">
+          <button class="btn-2">Get A Quote</button>
+
+        </a>
+      </div>
+    </div>
+  </div>
+  <!-- section-1 end -->
+
+  <!-- video section start -->
+  <div class="video-section">
+    <div class="part-1">
+      <video src="../images/video-1.mp4" class="video-1"></video>
+      <img src="../images/video-img.webp" alt="img">
+    </div>
+    <div class="part-2">
+      <h3>Welcome To LawnCare</h3>
+      <h1>Welcome To LawnCare <br>Company</h1>
+      <p>
+        Far far away, behind the word mountains, far from the <br> countries Vokalia and Consonantia
+      </p>
+
+      <div class="btn-3">
+        Gutter Cleaning
+      </div>
+      <div class="btn-3">
+        Organinc fertilization and weed control
+      </div>
+      <div class="btn-3">
+        Compost top dressing & compost tea application
+      </div>
+      <div class="btn-3">
+        New lawn installation
+      </div>
+      <div class="btn-3">
+        Mulch and other services available
+      </div>
+    </div>
+  </div>
+  <!-- video section end -->
+  <!-- season slide start-->
+  <div class="slide-container">
+    <div class="slider-text">
+      <h3>Tips & Techniques</h3>
+      <h1>Seasonal Lawn Care Tips</h1>
+    </div>
+    <!-- Swiper-1 -->
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="i-1">
+            <img src="../images/seasonal-1.jpg" alt="slide-1">
+            <h3>Spring</h3>
+            <p>
+              Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
+              blind texts.
+            </p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="i-1">
+            <img src="../images/seasonal-2.jpg" alt="slide-2">
+            <h3>Summer</h3>
+            <p>
+              Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
+              blind texts.
+            </p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="i-1">
+            <img src="../images/seasonal-3.jpg" alt="slide-3">
+            <h3>Winter</h3>
+            <p>
+              Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
+              blind texts.
+            </p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="i-1">
+            <img src="../images/seasonal-4.jpg" alt="slide-4">
+            <h3>Fall</h3>
+            <p>
+              Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
+              blind texts.
+            </p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="i-1">
+            <img src="../images/seasonal-1.jpg" alt="slide-1">
+            <h3>Spring</h3>
+            <p>
+              Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
+              blind texts.
+            </p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="i-1">
+            <img src="../images/seasonal-2.jpg" alt="slide-2">
+            <h3>Summer</h3>
+            <p>
+              Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
+              blind texts.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+
+  <!-- season slide end -->
+  <!-- contact start -->
+  <div class="contact-container">
+    <div class="contact-text">
+      <h1>Contact with us</h1>
+      <p>Do you have any comments or questions about the products then <br> contact us.</p>
+    </div>
+    <div class="contact-no">+00(123) 456-78-09</div>
+  </div>
+  <!-- contact end -->
+
+  <!--  slide-2 start-->
+  <div class="slide-container">
+    <div class="slider-text">
+      <h3>Testimonial</h3>
+      <h1>Happy Clients</h1>
+    </div>
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="client-1">
+            <p>
+              Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
+              blind texts.
+            </p>
+            <div class="client-1-con">
+              <div class="client-1-img">
+                <img src="../images/person_1.jpg" alt="person-1">
+              </div>
+              <div class="client-1-text">
+                <h3 class="name">Roger Scott</h3>
+                <span class="position">Marketing Manager</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="client-1">
+            <p>
+              Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
+              blind texts.
+            </p>
+            <div class="client-1-con">
+              <div class="client-1-img">
+                <img src="../images/person_2.jpg" alt="person-2">
+              </div>
+              <div class="client-1-text">
+                <h3 class="name">Roger Scott</h3>
+                <span class="position">Marketing Manager</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="client-1">
+            <p>
+              Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
+              blind texts.
+            </p>
+            <div class="client-1-con">
+              <div class="client-1-img">
+                <img src="../images/person_3.jpg" alt="person-1">
+              </div>
+              <div class="client-1-text">
+                <h3 class="name">Roger Scott</h3>
+                <span class="position">Marketing Manager</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="client-1">
+            <p>
+              Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
+              blind texts.
+            </p>
+            <div class="client-1-con">
+              <div class="client-1-img">
+                <img src="../images/person_1.jpg" alt="person-1">
+              </div>
+              <div class="client-1-text">
+                <h3 class="name">Roger Scott</h3>
+                <span class="position">Marketing Manager</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="client-1">
+            <p>
+              Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
+              blind texts.
+            </p>
+            <div class="client-1-con">
+              <div class="client-1-img">
+                <img src="../images/person_2.jpg" alt="person-2">
+              </div>
+              <div class="client-1-text">
+                <h3 class="name">Roger Scott</h3>
+                <span class="position">Marketing Manager</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="client-1">
+            <p>
+              Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
+              blind texts.
+            </p>
+            <div class="client-1-con">
+              <div class="client-1-img">
+                <img src="../images/person_3.jpg" alt="person-3">
+              </div>
+              <div class="client-1-text">
+                <h3 class="name">Roger Scott</h3>
+                <span class="position">Marketing Manager</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+  <!--  slide-2 end -->
+
+  <!-- blog conatiner start -->
+  <div class="blog-container">
+    <div class="blog-inner-container">
+      <div class="blog-heading">
+        <h3>Our Blog</h3>
+        <h1>Recent Blog</h1>
+      </div>
+      <div class="blog-maindiv">
+        <div class="blog-inner-div">
+          <img src="../images/image_1.jpg" alt="img-1">
+          <div class="blog-textdiv">
+            <div class="topper">
+              <div class="one">
+                <span class="day">24</span>
+              </div>
+              <div class="two">
+                <span class="yr">2020</span>
+                <span class="mos">January</span>
+              </div>
+            </div>
+            <a href="home.html">
+              All you want to know about industrial laws
+            </a>
+            <p>
+              A small river named Duden flows by their place and supplies it with the necessary regelialia.
+            </p>
+            <a href="home.html">
+              <button class="btn-4">Read more</button>
+            </a>
+          </div>
+        </div>
+        <div class="blog-inner-div">
+          <img src="../images/seasonal-1.jpg" alt="img-2">
+          <div class="blog-textdiv">
+            <div class="topper">
+              <div class="one">
+                <span class="day">24</span>
+              </div>
+              <div class="two">
+                <span class="yr">2020</span>
+                <span class="mos">January</span>
+              </div>
+            </div>
+            <a href="home.html">
+              All you want to know about industrial laws
+            </a>
+            <p>
+              A small river named Duden flows by their place and supplies it with the necessary regelialia.
+            </p>
+            <a href="home.html">
+              <button class="btn-4">Read more</button>
+            </a>
+          </div>
+        </div>
+        <div class="blog-inner-div">
+          <img src="../images/image_3.jpg" alt="img-3">
+          <div class="blog-textdiv">
+            <div class="topper">
+              <div class="one">
+                <span class="day">24</span>
+              </div>
+              <div class="two">
+                <span class="yr">2020</span>
+                <span class="mos">January</span>
+              </div>
+            </div>
+            <a href="home.html">
+              All you want to know about industrial laws
+            </a>
+            <p>
+              A small river named Duden flows by their place and supplies it with the necessary regelialia.
+            </p>
+            <a href="home.html">
+              <button class="btn-4">Read more</button>
+            </a>
+          </div>
         </div>
       </div>
     </div>
   </div>
+  <!-- blog conatiner end -->
 
-  <!-- section-1 end -->
+  <!-- email baar start  -->
+
+  <div class="email-baar">
+       <div class="email-container">
+        
+       </div>
+  </div>
+  <!-- email baar end -->
+
+  <!-- Swiper JS-1 -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper-1 -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  </script>
+
+
 </body>
 
 </html>
