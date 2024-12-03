@@ -10,10 +10,79 @@
 </head>
 
 <body>
+  <h3>accordion</h3>
+  <div class="container">
+    <div class="accordion shadow " id="accordionPanelsStayOpenExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button opacity-25 bg-warning" type="button" data-bs-toggle="collapse"
+            data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+            aria-controls="panelsStayOpen-collapseOne">
+            Accordion Item #1
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+          <div class="accordion-body">
+            <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin
+            adds the appropriate classes that we use to style each element. These classes control the overall
+            appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom
+            CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
+            <code>.accordion-body</code>, though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed opacity-50 bg-success" type="button" data-bs-toggle="collapse"
+            data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+            aria-controls="panelsStayOpen-collapseTwo">
+            Accordion Item #2
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+          <div class="accordion-body">
+            <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse
+            plugin adds the appropriate classes that we use to style each element. These classes control the overall
+            appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom
+            CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
+            <code>.accordion-body</code>, though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed opacity-75 bg-danger" type="button" data-bs-toggle="collapse"
+            data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+            aria-controls="panelsStayOpen-collapseThree">
+            Accordion Item #3
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+          <div class="accordion-body">
+            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin
+            adds the appropriate classes that we use to style each element. These classes control the overall
+            appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom
+            CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
+            <code>.accordion-body</code>, though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <hr>
+    <hr>
+
+    <h3>button</h3>
+  </div>
   <div class="container m-5 d-flex justify-content-center">
     <button type="button" class="btn shadow border border-warning" style="border-radius: 25%;">Button-1</button>
   </div>
   <br>
+  <hr>
+  <hr>
+  <hr>
+
+  <h3>navbaar</h3>
   <div class="container border-0 d-flex flex-column align-items-center rounded-top">
     <ul class="nav ">
       <li class="nav-item shadow-sm px-5 border border-info">
@@ -30,16 +99,25 @@
       </li>
     </ul>
   </div>
+  <hr>
+  <hr>
+  <hr>
+
+  <h3>list-group</h3>
   <div class="container">
     <ul class="list-group m-5">
-      <li class="list-group-item bg-success text-white ">An item</li>
+      <li class="list-group-item bg-danger-subtle text-white ">An item</li>
       <li class="list-group-item">A second item</li>
       <li class="list-group-item opacity-50">A third item</li>
       <li class="list-group-item">A fourth item</li>
       <li class="list-group-item opacity-75">And a fifth one</li>
     </ul>
   </div>
+  <hr>
+  <hr>
+  <hr>
 
+  <h3>progress</h3>
   <div class="container">
     <div class="progress m-5 shadow" role="progressbar" aria-label="Success example" aria-valuenow="25"
       aria-valuemin="0" aria-valuemax="100">
@@ -53,12 +131,16 @@
       aria-valuemin="0" aria-valuemax="100">
       <div class="progress-bar bg-warning border-none" style="width: 75%"></div>
     </div>
-    <div class="progress shadow-lg" role="progressbar" aria-label="Danger example" aria-valuenow="100"
-      aria-valuemin="0" aria-valuemax="100">
+    <div class="progress shadow-lg" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0"
+      aria-valuemax="100">
       <div class="progress-bar bg-dark border-none" style="width: 100%"></div>
     </div>
   </div>
+  <hr>
+  <hr>
+  <hr>
 
+  <h3>spinner</h3>
   <div class="container m-5">
     <div class="spinner-border spinner-border text-info opacity-50" role="status">
       <span class="visually-hidden ">Loading...</span>
@@ -67,42 +149,247 @@
       <span class="visually-hidden">Loading...</span>
     </div>
   </div>
-  <ul class="list-group">
-    <li class="list-group-item active" aria-current="true">An active item</li>
-    <li class="list-group-item">A second item</li>
-    <li class="list-group-item">A third item</li>
-    <li class="list-group-item">A fourth item</li>
-    <li class="list-group-item">And a fifth one</li>
-  </ul>
-  <div class="progress container h-50" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-    <label for="" class="form-label ">progressbar </label>
-    <div class="progress-bar w-75"></div>
+  <hr>
+  <hr>
+  <hr>
+
+  <h3>alerts</h3>
+  <div class="container m-5">
+    <div id="liveAlertPlaceholder"></div>
+    <button type="button" class="btn btn-danger shadow-sm " id="liveAlertBtn">Show live alert</button>
   </div>
-  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+  <hr>
+  <hr>
+  <hr>
+
+  <h3>badge</h3>
+  <div class="container">
+    <button type="button" class="btn btn-primary rounded-0">
+      massage for you !!<span class="badge text-bg-info">3</span>
+    </button>
+  </div>
+  <hr>
+  <hr>
+  <hr>
+
+  <h3>braedcrumb</h3>
+  <div class="container m-5 shadow">
+    <nav aria-label="breadcrumb p-5">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item active" aria-current="page">Home</li>
+      </ol>
+    </nav>
+
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item p-5"><a href="#">Home</a></li>
+        <li class="breadcrumb-item  p-5 " aria-current="page">Gallary</li>
+      </ol>
+    </nav>
+
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb m-3">
+        <li class="breadcrumb-item"><a href="#">Home</a></li>
+        <li class="breadcrumb-item"><a href="#">Gallary</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Photos</li>
+      </ol>
+    </nav>
+  </div>
+  <hr>
+  <hr>
+  <hr>
+
+  <h3>button-group</h3>
+  <div class="container">
+    <div class="btn-group " role="group" aria-label="Basic example">
+      <button type="button" class="btn btn-primary py-5 rounded-circle">Left</button>
+      <button type="button" class="btn btn-dark px-5 rounded-circle">Middle</button>
+      <button type="button" class="btn btn-primary rounded-circle">Right</button>
+    </div>
+  </div>
+  <hr>
+  <hr>
+  <hr>
+
+  <h3>card</h3>
+  <div class="container align-center">
+    <div class="card text-center bg-warning text-black border border-3 border-info" style="width: 16rem;">
+      <img src="/image/image1.jpg" class="card-img-top" alt="image">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+          content.</p>
+        <a href="#" class="btn btn-danger">Go somewhere</a>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <hr>
+  <hr>
+
+  <h3>carosule</h3>
+  <div class="container m-5 p-2 h-100">
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="/image/image2.jpg" class="d-block w-100" alt="...">
         </div>
-        <div class="modal-body">
-          Error In Program !!!
+        <div class="carousel-item">
+          <img src="/image/image3.jpg" class="d-block w-100" alt="...">
         </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Understood</button>
+        <div class="carousel-item">
+          <img src="/image/image.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <!-- <span class="visually-hidden">Previous</span> -->
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <!-- <span class="visually-hidden">Next</span> -->
+      </button>
+    </div>
+  </div>
+  <hr>
+  <hr>
+  <hr>
+  <h3>close-button</h3>
+  <div class="container">
+    <button type="button" class="btn-close bg-info m-5" aria-label="Close"></button>
+  </div>
+  <hr>
+  <hr>
+  <hr>
+  <h3>collapse</h3>
+  <div class="container m-5">
+    <p>
+      <button class="btn btn-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+        Toggle width collapse !!  
+      </button>
+    </p>
+    <div style="min-height: 120px;">
+      <div class="collapse collapse-horizontal" id="collapseWidthExample">
+        <div class="card card-body" style="width: 400px;">
+          This is some placeholder content for a horizontal collapse. It's hidden by default and shown when triggered.
         </div>
       </div>
     </div>
   </div>
-<br><br>
-  <div class="spinner-border spinner-border"  role="status">
-    <span class="visually-hidden">Loading...</span>
+  <h3>dropdown</h3>
+  <div class="container m-5">
+    <div class="dropdown">
+      <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="true">
+        city list
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Rajkot</a></li>
+        <li><a class="dropdown-item" href="#">Ahmdabaad</a></li>
+        <li><a class="dropdown-item" href="#">Surat</a></li>
+      </ul>
+    </div>
+
   </div>
-  <div class="spinner-grow spinner-grow" role="status">
-    <span class="visually-hidden">Loading...</span>
+
+  <button type="button" class="btn btn-primary rounded-0 shadow m-3" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="Top popover">
+    Popover on top
+  </button>
+  <button type="button" class="btn btn-success rounded-0 shadow m-3" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="right" data-bs-content="Right popover">
+    Popover on right
+  </button>
+  <button type="button" class="btn btn-warning rounded-0 shadow m-3" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="Bottom popover">
+    Popover on bottom
+  </button>
+  <button type="button" class="btn btn-danger rounded-0 shadow m-3" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="left" data-bs-content="Left popover">
+    Popover on left
+  </button>
+  <div class="container m-5">
+    <div class="row">
+      <div class="col-4">
+        <nav id="navbar-example3" class="h-100 flex-column align-items-stretch pe-4 border-end">
+          <nav class="nav nav-pills flex-column">
+            <a class="nav-link" href="#item-1">Item 1</a>
+            <nav class="nav nav-pills flex-column">
+              <a class="nav-link ms-3 my-1" href="#item-1-1">Item 1-1</a>
+              <a class="nav-link ms-3 my-1" href="#item-1-2">Item 1-2</a>
+            </nav>
+            <a class="nav-link" href="#item-2">Item 2</a>
+            <a class="nav-link" href="#item-3">Item 3</a>
+            <nav class="nav nav-pills flex-column">
+              <a class="nav-link ms-3 my-1" href="#item-3-1">Item 3-1</a>
+              <a class="nav-link ms-3 my-1" href="#item-3-2">Item 3-2</a>
+            </nav>
+          </nav>
+        </nav>
+      </div>
+    
+      <div class="col-8 bg-warning text-black p-5">
+        <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="0">
+          <div id="item-1">
+            <h4>Item 1</h4>
+            <p class="p-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit consectetur numquam amet expedita, atque facilis alias dolore! Praesentium distinctio cumque maiores harum sunt impedit possimus dolor. Optio aspernatur provident atque doloribus consectetur praesentium sed officia minus possimus nisi fugit quod quos ipsam illum vero deserunt error, non distinctio voluptas. Blanditiis?</p>
+          </div>
+          <div id="item-1-1">
+            <h5>Item 1-1</h5>
+            <p class="p-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit consectetur numquam amet expedita, atque facilis alias dolore! Praesentium distinctio cumque maiores harum sunt impedit possimus dolor. Optio aspernatur provident atque doloribus consectetur praesentium sed officia minus possimus nisi fugit quod quos ipsam illum vero deserunt error, non distinctio voluptas. Blanditiis?</p>
+          </div>
+          <div id="item-1-2">
+            <h5>Item 1-2</h5>
+            <p class="p-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit consectetur numquam amet expedita, atque facilis alias dolore! Praesentium distinctio cumque maiores harum sunt impedit possimus dolor. Optio aspernatur provident atque doloribus consectetur praesentium sed officia minus possimus nisi fugit quod quos ipsam illum vero deserunt error, non distinctio voluptas. Blanditiis?</p>
+          </div>
+          <div id="item-2">
+            <h4>Item 2</h4>
+            <p class="p-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit consectetur numquam amet expedita, atque facilis alias dolore! Praesentium distinctio cumque maiores harum sunt impedit possimus dolor. Optio aspernatur provident atque doloribus consectetur praesentium sed officia minus possimus nisi fugit quod quos ipsam illum vero deserunt error, non distinctio voluptas. Blanditiis?</p>
+          </div>
+          <div id="item-3">
+            <h4>Item 3</h4>
+            <p class="p-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit consectetur numquam amet expedita, atque facilis alias dolore! Praesentium distinctio cumque maiores harum sunt impedit possimus dolor. Optio aspernatur provident atque doloribus consectetur praesentium sed officia minus possimus nisi fugit quod quos ipsam illum vero deserunt error, non distinctio voluptas. Blanditiis?</p>
+          </div>
+          <div id="item-3-1">
+            <h5>Item 3-1</h5>
+            <p class="p-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit consectetur numquam amet expedita, atque facilis alias dolore! Praesentium distinctio cumque maiores harum sunt impedit possimus dolor. Optio aspernatur provident atque doloribus consectetur praesentium sed officia minus possimus nisi fugit quod quos ipsam illum vero deserunt error, non distinctio voluptas. Blanditiis?</p>
+          </div>
+          <div id="item-3-2">
+            <h5>Item 3-2</h5>
+            <p class="p-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit consectetur numquam amet expedita, atque facilis alias dolore! Praesentium distinctio cumque maiores harum sunt impedit possimus dolor. Optio aspernatur provident atque doloribus consectetur praesentium sed officia minus possimus nisi fugit quod quos ipsam illum vero deserunt error, non distinctio voluptas. Blanditiis?</p>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
+
   <script src="../bootstrap-5.3.3-dist/bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
+  <script>
+    const alertPlaceholder = document.getElementById('liveAlertPlaceholder')
+    const appendAlert = (message, type) => {
+      const wrapper = document.createElement('div')
+      wrapper.innerHTML = [
+        `<div class="alert alert-${type} alert-dismissible" role="alert">`,
+        `   <div>${message}</div>`,
+        '   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>',
+        '</div>'
+      ].join('')
+
+      alertPlaceholder.append(wrapper)
+    }
+
+    const alertTrigger = document.getElementById('liveAlertBtn')
+    if (alertTrigger) {
+      alertTrigger.addEventListener('click', () => {
+        appendAlert('Nice, you triggered this alert message!', 'success')
+      })
+    }
+  </script>
 </body>
 
 </html>
