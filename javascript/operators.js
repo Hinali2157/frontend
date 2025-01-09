@@ -14,10 +14,10 @@
 }
 
 // 3. convert temperature from celsius to fehrenheit
-{
-    let cel = 50
+// {
+//     let cel = 50
 
-    let fehrenheit = (9/5)*cel + 32 
-    console.log( `temperature is : ${fehrenheit}`)
+//     let fehrenheit = (9/5)*cel + 32 
+//     console.log( `temperature is : ${fehrenheit}`)
     
-}
+// }
