@@ -112,13 +112,23 @@
 
 //     if (a > b && a > c){
 //         console.log(`${a} a is largest number`);
-        
+
 //     }else if (b>a && b>c){
 //         console.log(`${b} b is largest number`);
-        
+
 //     }else{
 //         console.log(`${c} c is largest number`);  
 //     }
 // }
 
 // 13 JavaScript Program to Check Prime Number
+let number = 12
+let i = 2
+for(i;i<number/2;i++){
+
+    if (6 * i + 1 || 6 * i - 1) {
+        console.log('prime');
+    } else {
+        console.log('not prime');
+    }
+}
