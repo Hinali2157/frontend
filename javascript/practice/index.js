@@ -1553,18 +1553,66 @@ switch case statement
 //     name1:'surbhi',
 //     age:20,
 //     passion:'singer'
-    
+
 // }
 // console.log(array);
 
+// {
+//          let x = "10"
+
+//          let y = Number(x)
+
+//          console.log(y);
+
+//          console.log(typeof x);
+//          console.log(typeof y);
+//      }
+
+
+// object methods
+// isfrozen  , freeze 
+let obj = {
+    name1: "anjali",
+};
+console.log(obj.name1);
+
+console.log(Object.isFrozen(obj));
+
+Object.freeze(obj);
+
+obj.name1 = "hinali"
+
+console.log(obj.name1);
+
+console.log(Object.isFrozen(obj));
+
+// seal  , issealed 
 {
-         let x = "10"
-    
-         let y = Number(x)
-    
-         console.log(y);
-    
-         console.log(typeof x);
-         console.log(typeof y);
-     }
+    let obj1 = {
+        name2: "krupa",
+    }
+    Object.seal(obj1)
+    obj1.name2 = "krishna"
+
+    delete obj1.name2;
+    console.log(obj1.name2);
+
+    console.log(Object.isSealed(obj1));
+
+}
+
+// keys , values
+{
+    obj2 = {
+        name3: "aayushi",
+        passion: "singer",
+        age: 18,
+    }
+    console.log(Object.keys(obj2));
+    console.log(Object.values(obj2));
+} 
+
+// assign
+
+
 

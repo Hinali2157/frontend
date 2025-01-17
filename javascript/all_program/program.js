@@ -122,13 +122,77 @@
 // }
 
 // 13 JavaScript Program to Check Prime Number
-let number = 12
-let i = 2
-for(i;i<number/2;i++){
+// {
+//     let number = 12
+//     let isPrime = true
+//     if(number === 1 ) {
+//         console.log("1 is neither prime nor divisible number.");
+//     }
+//     else if (number > 1) {
+//         for (let i=2 ; i <= number/2 ; i++ ) {
+//             if (number % i == 0 ) {
+//                 isPrime = false;
+//                 break;
+//                 }
+//         }
+//         if (isPrime) {
+//                 console.log(`${number} is a prime number`);
+//         } else {
+//             console.log(`${number} is a not prime number`);
+//         }
+//     }
+//     else {
+//         console.log("The number is not a prime number.");
+//     }
+// }
 
-    if (6 * i + 1 || 6 * i - 1) {
-        console.log('prime');
-    } else {
-        console.log('not prime');
-    }
-}
+// 14 JavaScript Program to Print All Prime Numbers in an Interval
+// {
+//          let number = 12
+//          let isPrime = true
+//          if(number === 1 ) {
+//              console.log("1 is neither prime nor divisible number.");
+//          }
+//          else if (number > 1) {
+//              for (let i=2 ; i <= number/2 ; i++ ) {
+//                  if (number % i == 0 ) {
+//                      isPrime = false;
+//                      break;
+//                      }
+//              }
+//              if (isPrime) {
+//                      console.log(`${number} is a prime number`);
+//              } else {
+//                  console.log(`${number} is a not prime number`);
+//              }
+//          }
+//          else {
+//              console.log("The number is not a prime number.");
+//          }
+//      }
+
+// 15 JavaScript Program to Find the Factorial of a Number
+// function Factorial(value) {
+//     if (value == 0) {
+//    return 1
+//     }
+//     else {
+//         let ans= value * Factorial(value - 1)
+//         console.log(`${ans}`);
+//         return ans
+//     }
+// }
+//  Factorial(5)
+
+// 16 JavaScript Program to Display the Multiplication Table
+// {
+//     let h = 51
+//     for (let i = 1; i <= 10; i++) {
+//         console.log(`${h} * ${i} = ${h*i}`);
+//     }
+// }
+
+// 17 JavaScript Program to Print the Fibonacci Sequence
+let n1 = 0
+let n2 = 1
+let n3
