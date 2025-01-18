@@ -1571,48 +1571,104 @@ switch case statement
 
 // object methods
 // isfrozen  , freeze 
-let obj = {
-    name1: "anjali",
-};
-console.log(obj.name1);
+// let obj = {
+//     name1: "anjali",
+// };
+// console.log(obj.name1);
 
-console.log(Object.isFrozen(obj));
+// console.log(Object.isFrozen(obj));
 
-Object.freeze(obj);
+// Object.freeze(obj);
 
-obj.name1 = "hinali"
+// obj.name1 = "hinali"
 
-console.log(obj.name1);
+// console.log(obj.name1);
 
-console.log(Object.isFrozen(obj));
+// console.log(Object.isFrozen(obj));
 
-// seal  , issealed 
-{
-    let obj1 = {
-        name2: "krupa",
-    }
-    Object.seal(obj1)
-    obj1.name2 = "krishna"
+// // seal  , issealed 
+// {
+//     let obj1 = {
+//         name2: "krupa",
+//     }
+//     Object.seal(obj1)
+//     obj1.name2 = "krishna"
 
-    delete obj1.name2;
-    console.log(obj1.name2);
+//     delete obj1.name2;
+//     console.log(obj1.name2);
 
-    console.log(Object.isSealed(obj1));
+//     console.log(Object.isSealed(obj1));
 
-}
+// }
 
-// keys , values
-{
-    obj2 = {
-        name3: "aayushi",
-        passion: "singer",
-        age: 18,
-    }
-    console.log(Object.keys(obj2));
-    console.log(Object.values(obj2));
-} 
+// // keys , values
+// {
+//     obj2 = {
+//         name3: "aayushi",
+//         passion: "singer",
+//         age: 18,
+//     }
+//     console.log(Object.keys(obj2));
+//     console.log(Object.values(obj2));
+// } 
 
-// assign
+// functions
+// pure function , impure function
 
+// 1. pure function
+// {
 
+//     function sum([a,b]){
+//         return a*b
+//     }
+//     console.log( sum([10,20]));
+// }
 
+// 2. impure function
+// {
+//     let arr = [10, 20]
+//     let arr1 = [10, 20]
+
+//     function sum(arr, arr1) {
+//         return arr[1] * arr1[1]
+//     }
+//     console.log(sum(arr, arr1));
+// }
+
+// arrow function 
+// {
+//     const sum = ([a, b]) => console.log(a*b);
+//     sum([10,20])
+// }
+
+// syncronous and Asyncronous functions 
+// {
+//     setTimeout
+//     clearTimeout
+//     setInterval
+//     clearInterval
+// }
+
+// 1. setTimeout
+// {
+//     function sum([a, b]) { 
+//         return a * b;
+//      }
+//     setInterval(() => console.log(sum([10, 20])), 2000)
+// }
+
+// 2. setinterval
+// {
+//     const setout = setInterval(() => {console.log("hiiiiiiiii helooooooo");} , 2000)
+//     console.log(setout);
+// }
+
+// 3. clearInterval
+// {
+//     function sum([a, b]) {
+//         return a * b;
+//     }
+//     const box = setInterval(() => console.log(sum([20, 30])), 2000)
+
+//     setInterval(() => clearInterval(box), 10000)
+// }
