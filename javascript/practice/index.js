@@ -1672,3 +1672,41 @@ switch case statement
 
 //     setInterval(() => clearInterval(box), 10000)
 // }
+
+// function birthdayFlower() {
+//     const flower = `
+//           @@@
+//          @   @
+//         @     @
+//        @       @
+//         @     @
+//          @   @
+//           @@@
+//            |
+//            |
+//     `;
+
+//     // Display the flower after 1 second
+//     setTimeout(() => {
+//         console.clear();
+//         console.log(flower);
+//     }, 1000);
+
+//     // Show the birthday message after 3 seconds
+//     setTimeout(() => {
+//         console.log('Happy Birthday! 🎉');
+//     }, 3000);
+
+//     // Start a repeating interval to add "Wishing you happiness..." every 4 seconds
+//     const interval = setInterval(() => {
+//         console.log('Wishing you a blooming day full of joy and happiness!');
+//     }, 4000);
+
+//     // Stop the interval after 15 seconds
+//     setTimeout(() => {
+//         clearInterval(interval);
+//         console.log('Enjoy your special day!');
+//     }, 15000);
+// }
+
+// birthdayFlower();
