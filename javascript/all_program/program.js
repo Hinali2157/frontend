@@ -207,21 +207,21 @@
 
 // 18.
 // {
-   // let num = 153
-    // let sum = 0
-    // let temp = num
+//    let num = 216
+//     let sum = 0
+//     let temp = num
     
-    // while (temp > 0) {
-    //     let digit = temp % 10
-    //     sum += digit * digit * digit
-    //     temp = Math.floor(temp / 10)
-    // }
-    // if (sum === num) {
+//     while (temp > 0) {
+//         let digit = temp % 10
+//         sum += digit * digit * digit
+//         temp = Math.floor(temp / 10)
+//     }
+//     if (sum === num) {
 //     console.log(` Armstrong number.`);
 // } else {
 //     console.log(` not Armstrong number.`);
 // }
-//}
+// }
 
 // 20.
 //function calculator(num1, num2, calc) {
@@ -320,3 +320,18 @@
 // } else {
 //     console.log(`The factorial of ${number} is ${factorial(number)}.`);
 // }
+
+// 19.
+{
+    let number = 153
+    let sum = 0
+    let temp = number
+    let lengthofnum = number.toString().length
+    console.log(lengthofnum);
+    
+    while(temp>0){
+        let digit = temp % 10
+        console.log(digit);
+        
+    }
+}
