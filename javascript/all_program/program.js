@@ -223,25 +223,32 @@
 // }
 // }
 
-// 20.
-//function calculator(num1, num2, calc) {
-    //     switch (calc) {
+// 20.javaScript Program to Make a Simple Calculator
+    // function Calculator(number1,number2,calc){
+    //     switch(calc){
     //         case '+':
-    //             return num1 + num2
+    //             return number1 + number2
     //         case '-':
-    //             return num1 - num2
+    //             return number1-number2
     //         case '*':
-    //             return num1 * num2
+    //             return number1*number2
     //         case '/':
-    //             if (num2 !== 0) {
-    //                 return num1 / num2
-    //             } else {
-    //                 return "Division by zero is not allowed."
+    //             if(number2!==0){
+    //                 return number1/number2
+    //             }else{
+    //                 return "zero is not dividable" 
     //             }
-    //         default:
-    //             return "this operator is not found"
+    //             default:
+    //                 return "invalid operator"
     //     }
     // }
+    // const number1 = prompt("enter the first number:")
+    // const number2 = prompt("enter the second number:")
+    // const calc = prompt("enter the operator : ")
+
+    // const result = Calculator(number1,number2,calc)
+    // console.log(`result: ${result}`);
+    
    
 
 // 21)JavaScript Program to Find the Sum of Natural Numbers
@@ -252,6 +259,22 @@
 // } else {
 //     console.log("Please enter a valid number.");
 // }
+
+// 22 JavaScript Program to Check if the Numbers Have Same Last Digit
+
+// const number1 = 158
+// const number2 = 244
+
+// let lastdigit1 = number1 % 10
+// let lastdigit2 = number2 % 10   
+
+// if(lastdigit1 === lastdigit2){
+//  console.log(`${number1} and ${number2} both have same last digit`);
+// }else{
+//     console.log(`${number1} and ${number2} both have not same last digit`);
+// }
+
+
 
 // 24)JavaScript Program to Find LCM
 // function findgcd(num1, num2) {
@@ -289,11 +312,13 @@
 // }
 // const number = 36;
 // const factors = findfactor(number);
-// console.log(`The factors of ${number} are: ${factors.join(', ')}`);
+// console.log(`The factors of ${number} are: ${factors.join(' , ')}`);
 
-// 27)JavaScript Program to Guess a Random Number
-// function guessnumber() {
+// 27 JavaScript Program to Guess a Random Number
+// function guessnum() {
 //     let random = Math.floor(Math.random() * 10) + 1
+//     // console.log(random);
+    
 //     let number = parseInt(prompt('Guess a number from 1 to 10:'))
 //     while (number != random) {
 //         number = parseInt(prompt('Guess a number from 1 to 10:'))
@@ -304,7 +329,29 @@
 //         console.log('oops number not correct!!!');
 //     }
 // }
-// guessnumber()
+// guessnum()
+
+// 29 JavaScript Program to Display Fibonacci Sequence Using Recursion
+// function fibonacci(n) {
+//     if (n <= 1) {
+//         return n
+//     }
+//     return fibonacci(n - 1) + fibonacci(n - 2)
+// }
+
+// function fibonaccisequence(terms) {
+//     if (terms <= 0) {
+//         console.log('please enter a positive integer');
+//         return
+//     }
+//     console.log('fibonacci series:');
+//     for (let i = 0; i < terms; i++) {
+//         console.log(fibonacci(i));
+//     }
+// }
+
+// let terms = 10
+// fibonaccisequence(terms)
 
 // 30)JavaScript Program to Find Factorial of Number Using Recursion
 // function factorial(n) {
@@ -321,17 +368,38 @@
 //     console.log(`The factorial of ${number} is ${factorial(number)}.`);
 // }
 
-// 19.
-{
-    let number = 153
-    let sum = 0
-    let temp = number
-    let lengthofnum = number.toString().length
-    console.log(lengthofnum);
-    
-    while(temp>0){
-        let digit = temp % 10
-        console.log(digit);
+// 19.javascript program to find armstrong number in an interval
+    // function isarmstrong(number){
+
+    //     // let number = 153
+    //     let sum = 0
+    //     let temp = number
+    //     let lengthofnum = number.toString().length
+    //     // console.log(lengthofnum);
         
-    }
-}
+    //     while(temp>0){
+    //         let digit = temp % 10
+    //         sum += Math.pow(digit , lengthofnum);
+    //         temp = Math.floor(temp/10)
+    //     }
+    //     return sum === number;
+    // }
+    // function findarmstrongnum(start,end){
+    // const result = []
+    // for(let i = start;i<=end ; i++){
+    //     if (isarmstrong(i)){
+    //         result.push(i)
+    //     }
+    // }
+    // return result
+    // }
+    // console.log(findarmstrongnum(100,200));
+
+    // 31 javaScript Program to Convert Decimal to Binary
+
+    
+// 32 JavaScript Program to Find ASCII Value of Character
+// let char = 'C'
+//     console.log(char.charCodeAt(0));
+    
+// 33 
