@@ -194,15 +194,15 @@
 
 // 17 JavaScript Program to Print the Fibonacci Sequence
 //{
-   // let num1 = 0
-    // let num2 = 1
-    // let next
-    // for (let i = 1; i <= 10; i++) {
-    //     console.log(num1);
-    //     next = num1 + num2
-    //     num1 = num2
-    //     num2 = next
-    // }
+// let num1 = 0
+// let num2 = 1
+// let next
+// for (let i = 1; i <= 10; i++) {
+//     console.log(num1);
+//     next = num1 + num2
+//     num1 = num2
+//     num2 = next
+// }
 //}
 
 // 18.
@@ -210,7 +210,7 @@
 //    let num = 216
 //     let sum = 0
 //     let temp = num
-    
+
 //     while (temp > 0) {
 //         let digit = temp % 10
 //         sum += digit * digit * digit
@@ -224,57 +224,57 @@
 // }
 
 // 19.javascript program to find armstrong number in an interval
-    // function isarmstrong(number){
+// function isarmstrong(number){
 
-    //     // let number = 153
-    //     let sum = 0
-    //     let temp = number
-    //     let lengthofnum = number.toString().length
-    //     // console.log(lengthofnum);
-        
-    //     while(temp>0){
-    //         let digit = temp % 10
-    //         sum += Math.pow(digit , lengthofnum);
-    //         temp = Math.floor(temp/10)
-    //     }
-    //     return sum === number;
-    // }
-    // function findarmstrongnum(start,end){
-    // const result = []
-    // for(let i = start;i<=end ; i++){
-    //     if (isarmstrong(i)){
-    //         result.push(i)
-    //     }
-    // }
-    // return result
-    // }
-    // console.log(findarmstrongnum(100,200));
+//     // let number = 153
+//     let sum = 0
+//     let temp = number
+//     let lengthofnum = number.toString().length
+//     // console.log(lengthofnum);
+
+//     while(temp>0){
+//         let digit = temp % 10
+//         sum += Math.pow(digit , lengthofnum);
+//         temp = Math.floor(temp/10)
+//     }
+//     return sum === number;
+// }
+// function findarmstrongnum(start,end){
+// const result = []
+// for(let i = start;i<=end ; i++){
+//     if (isarmstrong(i)){
+//         result.push(i)
+//     }
+// }
+// return result
+// }
+// console.log(findarmstrongnum(100,200));
 
 // 20.javaScript Program to Make a Simple Calculator
-    // function Calculator(number1,number2,calc){
-    //     switch(calc){
-    //         case '+':
-    //             return number1 + number2
-    //         case '-':
-    //             return number1-number2
-    //         case '*':
-    //             return number1*number2
-    //         case '/':
-    //             if(number2!==0){
-    //                 return number1/number2
-    //             }else{
-    //                 return "zero is not dividable" 
-    //             }
-    //             default:
-    //                 return "invalid operator"
-    //     }
-    // }
-    // const number1 = prompt("enter the first number:")
-    // const number2 = prompt("enter the second number:")
-    // const calc = prompt("enter the operator : ")
+// function Calculator(number1,number2,calc){
+//     switch(calc){
+//         case '+':
+//             return number1 + number2
+//         case '-':
+//             return number1-number2
+//         case '*':
+//             return number1*number2
+//         case '/':
+//             if(number2!==0){
+//                 return number1/number2
+//             }else{
+//                 return "zero is not dividable" 
+//             }
+//             default:
+//                 return "invalid operator"
+//     }
+// }
+// const number1 = prompt("enter the first number:")
+// const number2 = prompt("enter the second number:")
+// const calc = prompt("enter the operator : ")
 
-    // const result = Calculator(number1,number2,calc)
-    // console.log(`result: ${result}`); 
+// const result = Calculator(number1,number2,calc)
+// console.log(`result: ${result}`); 
 
 // 21)JavaScript Program to Find the Sum of Natural Numbers
 // let n = 10
@@ -340,7 +340,7 @@
 // function guessnum() {
 //     let random = Math.floor(Math.random() * 10) + 1
 //     // console.log(random);
-    
+
 //     let number = parseInt(prompt('Guess a number from 1 to 10:'))
 //     while (number != random) {
 //         number = parseInt(prompt('Guess a number from 1 to 10:'))
@@ -389,11 +389,11 @@
 //     console.log(`The factorial of ${number} is ${factorial(number)}.`);
 // }
 
- 
+
 // 32 JavaScript Program to Find ASCII Value of Character
 // let char = 'C'
 //     console.log(char.charCodeAt(0));
-    
+
 // 33)JavaScript Program to Check Whether a String is Palindrome or Not
 {
 
@@ -411,7 +411,7 @@
 //     console.log(string);   
 //     let Replacestring = string.replace("hii" , "hello")
 //     console.log(Replacestring);
-    
+
 // }
 // 36)JavaScript Program to Reverse a String
 // {
@@ -422,40 +422,126 @@
 // }
 
 // 37)JavaScript Program to Create Objects in Different Ways
-{
-    // 1. object creat with literal
-//    let object = {
-//     "name1" : "hinali",
-//     "age" : "17",
-//     "email" : "hinali@gmail.com"
-//    }
-//    console.log(object);
-   
-  // 2. new object method
-//   let object = new Object()
-//   object.name = "hinali"
-//   object.age ="19"
-//   console.log(object);
-  
-     // 3. create object method
-//   const object = { name1 : "hinali"}
-//   const Object1 = Object.create(object)
-//   Object1.age = "19"
-//   Object1.name = "dhruvi"
-//   console.log(Object1)
-}
+// {
+//     // 1. object creat with literal
+// //    let object = {
+// //     "name1" : "hinali",
+// //     "age" : "17",
+// //     "email" : "hinali@gmail.com"
+// //    }
+// //    console.log(object);
+
+//   // 2. new object method
+// //   let object = new Object()
+// //   object.name = "hinali"
+// //   object.age ="19"
+// //   console.log(object);
+
+//      // 3. create object method
+// //   const object = { name1 : "hinali"}
+// //   const Object1 = Object.create(object)
+// //   Object1.age = "19"
+// //   Object1.name = "dhruvi"
+// //   console.log(Object1)
+// }
+
 // 38)JavaScript Program to Check the Number of Occurrences of a Character in
 // the String
+
 // 39)JavaScript Program to Convert the First Letter of a String into UpperCase
+// {
+//     let string = "sily girl"
+//     let upperCase = string.charAt(0).toUpperCase()+ string.slice(1)
+//     console.log(upperCase); 
+// }
+
 // 40)JavaScript Program to Count the Number of Vowels in a String
+// {
+//     function countvowel(string) {
+//         const vowel = "aeiouAEIOU"
+//         let alfabet = 0
+//         for (let char of string) {
+//             if (vowel.includes(char)) {
+//                 alfabet++;
+//             }
+//         }
+//         return alfabet;
+//     }
+//     let str = " hello apple"
+//     console.log(str);  
+//     console.log(countvowel(str));
+// }
+
 // 41)JavaScript Program to Remove a Property from an Object
+// {
+//     let obj = {
+//         name1 : "hinali" , 
+//         age : "19",
+//         email : "hinali@gmail.com",
+//         gender : "female"
+//     }
+//     console.log(obj);
+//     delete obj.email
+//     console.log(obj);
+// }
+
 // 42)JavaScript Program to Check Whether a String Starts and Ends With Certain
 // Characters
+{
+}
+
 // 43)JavaScript Program to Check if a Key Exists in an Object
+// {
+//     let obj = {
+//         name1: "hinali",
+//         age: "19",
+//         email: "hinali@gmail.com",
+//         gender: "female"
+//     }
+//     console.log(obj);
+//     function keyExistsInObject(key, object) {
+//         return key in object;
+//     }
+//     console.log(keyExistsInObject('name1', obj));
+//     console.log(keyExistsInObject('address', obj));
+// }
+
 // 44)JavaScript Program to Clone a JS Object
+// {
+//     let obj = {
+//                  name1: "hinali",
+//                  age: "19",
+//                  email: "hinali@gmail.com",
+//                  gender: "female"
+//              }
+//              let clone = {...obj}
+//              console.log(clone);
+// }
+
 // 45)JavaScript Program to Loop Through an Object
+// {
+//     let obj = {
+//                  name1: "hinali",
+//                  age: "19",
+//                  email: "hinali@gmail.com",
+//                  gender: "female"
+//              }
+//              console.log(obj);
+//              for(let key in obj ){
+//                 console.log(`${key} => ${obj[key]}`);   
+//              }
+// }
+
 // 46)JavaScript Program to Merge Property of Two Objects
+// {
+//     let obj1 = {key1:"moon" , key2 :"star"}
+//     let obj2 = {key3:"flowers" , key4 :"tree"}
+//    let newobject = Object.assign(obj1 , obj2)
+//    console.log(newobject);   
+// }
+
 // 47)JavaScript Program to Count the Number of Keys/Properties in an Object
+
 // 48)JavaScript Program to Add Key/Value Pair to an Object
 // 49)JavaScript Program to Replace All Occurrences of a String
 // 50)JavaScript Program to Create Multiline Strings
