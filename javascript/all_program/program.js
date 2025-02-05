@@ -541,7 +541,14 @@
 // }
 
 // 47)JavaScript Program to Count the Number of Keys/Properties in an Object
-
+{
+  let object = {
+    name1 : "hinali",
+    age : "19",
+    passion : "dancer"
+  }
+  console.log(object);
+}
 // 48)JavaScript Program to Add Key/Value Pair to an Object
 // 49)JavaScript Program to Replace All Occurrences of a String
 // 50)JavaScript Program to Create Multiline Strings
