@@ -541,14 +541,74 @@
 // }
 
 // 47)JavaScript Program to Count the Number of Keys/Properties in an Object
-{
-  let object = {
-    name1 : "hinali",
-    age : "19",
-    passion : "dancer"
-  }
-  console.log(object);
-}
+// {
+//   let object = {
+//     name1 : "hinali",
+//     age : "19",
+//     passion : "dancer"
+//   }
+//   console.log(object);
+//   let count = 0 
+//   for(key in object){
+//     ++count
+//   }
+//   console.log(count);
+// }
+
 // 48)JavaScript Program to Add Key/Value Pair to an Object
+// {
+//   let obj = {
+//     name1 : "hinali",
+//      age : "19",
+//      passion : "dancer"
+//   }
+//   obj.key = "value"
+//   console.log(obj);  
+// }
+
 // 49)JavaScript Program to Replace All Occurrences of a String
+// {
+// let str ="dog is so cute. dog is very dengerous "
+// console.log(str.replaceAll (/dog/gi,"fox"));
+// }
+
 // 50)JavaScript Program to Create Multiline Strings
+// {
+// let string = "i am using java script \n" +
+//              "i am using nodejs \n" +
+//              "i am using reactjs \n"
+//              console.log(string);
+// }
+             
+// 51)JavaScript Program to Format Numbers as Currency Strings
+
+
+// 52)JavaScript Program to Generate Random String
+//  {
+//   // function random_str(length){
+//   //   let string = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"
+//   //   let result = ""
+//   //   for(let i=0;i<length;i++){
+//   //     let randomstr = Math.floor(Math.random()*string.length)
+//   //     result += string.charAt(randomstr)
+//   //   }
+//   //   return result 
+//   // }
+// // let fun = random_str(10)
+// // console.log(fun);
+// }
+
+// 53)JavaScript Program to Check if a String Starts With Another String
+
+
+// 54)JavaScript Program to Trim a String
+{
+  let string = "   hello   "
+  console.log(string.trim());
+}
+// 55)JavaScript Program to Convert Objects to Strings
+// 56)JavaScript Program to Check Whether a String Contains a Substring
+// 57)JavaScript Program to Compare Two Strings
+// 58)JavaScript Program to Encode a String to Base64
+// 59)JavaScript Program to Replace all Instances of a Character in a String
+// 60)JavaScript Program to Replace All Line Breaks with

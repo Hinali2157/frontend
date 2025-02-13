@@ -1,6 +1,7 @@
 *{
     margin: 0;
     box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
  /* website start  */
      /* heading start  */
@@ -101,7 +102,6 @@
 .home-bg1{
    background-image: url(../images/about_bg-1.jpg);
     height: 600px; 
-   background-attachment: fixed;
 }
 .con-1{
    display: block;
@@ -127,4 +127,102 @@
    }
     /* background-1 end  */
    
-   
+   /* blog container start */
+
+.blog-container {
+   background-color: rgba(0, 0, 0, 0.05);
+   padding: 100px;
+   margin-top: 100px;
+}
+
+.blog-heading {
+   text-align: center;
+}
+
+.blog-heading h3 {
+   font-weight: 700;
+   color: #4e9525;
+}
+
+.blog-maindiv {
+   display: flex;
+   gap: 30px;
+   align-items: center;
+   justify-content: center;
+   margin: auto;
+   padding-top: 50px;
+}
+
+.topper {
+   margin-top: -72.5px;
+   position: absolute;
+   top: 0;
+   left: 20px;
+   background: #4e9525;
+   display: flex;
+   text-align: center;
+   padding-left: 10px;
+}
+
+.one span {
+   font-size: 44px;
+   color: #fff;
+}
+
+.two {
+   text-align: left;
+   margin: 12px;
+}
+
+.two .yr {
+   font-size: 13px;
+   line-height: 1.6;
+   display: block;
+   color: rgba(255, 255, 255, 0.7);
+}
+
+.two .mos {
+   font-size: 13px;
+   line-height: 1.6;
+   display: block;
+   color: rgba(255, 255, 255, 0.7);
+}
+
+.blog-textdiv {
+   max-width: 348px;
+   padding: 24px;
+   position: relative;
+   background-color: #fff;
+}
+
+.blog-textdiv a {
+   text-decoration: none;
+   color: #000000;
+   font-size: 18px;
+}
+
+.btn-4 {
+   background: #4e9525;
+   border: 1px solid #4e9525;
+   color: #fff;
+   height: 40px;
+   text-align: center;
+   vertical-align: middle;
+   font-size: 16px;
+   border-radius: 4px;
+   cursor: pointer;
+   padding: 6px 12px;
+   margin-top: 10px;
+}
+
+.blog-textdiv p {
+   color: gray;
+}
+
+.blog-maindiv img {
+   width: 350px;
+   height: 270px;
+   object-fit: cover;
+}
+
+/* blog container end */
